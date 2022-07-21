@@ -1,0 +1,249 @@
+  body {
+  height: 100%;
+  width: 100%;
+  width:70%;
+  margin:auto;
+  font-family: sans-serif;
+  background: url("https://www.racedepartment.com/attachments/__custom_showroom_1557510309-png.305115/");
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+/*   background-size: 100%; */
+/*   background: url("https://www.racedepartment.com/attachments/__custom_showroom_1557510309-png.305115/");
+  opacity: 0.5; */
+}
+
+ol{
+  list-style-type: upper-roman;
+  font: normal 20px Arial;  
+  padding-left:40px;
+}
+
+ul{
+  font-size: 20px;
+  padding-left:40px;
+}
+
+p{
+  font-size: 20px;
+  padding-left:40px;
+}
+
+#header{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  margin-top: 70px;
+  
+  padding:40px 50px; 
+  background-color:rgb(225, 6, 0); 
+  font: bold 100px Arial;
+  color:white;
+}
+
+.center {
+  padding-right: 30px;
+}
+h2{
+  font-family: sans-serif;
+  font-size:35px;
+  font-weight: normal;
+/*   font-family: times; */
+  padding-left: 20px;
+}
+
+.imagens-pequenas{
+  width: 100px;
+}
+
+.backgd{
+  margin: 30px 0px;
+  padding: 20px;
+  background-color: rgb(255,255,255,0.8);
+}
+
+footer{
+  font-size: 15px;
+}
+
+
+.right{
+  margin-top:20px;
+  float: right;
+  width:30%;
+  
+}
+
+.left{
+  float:left;
+  width: 69%;
+}
+
+#Champs{
+  list-style: none;
+}
+
+#Champs li{
+  padding:10px;
+}
+
+.section{
+  width: 100%;
+  float:left;
+}
+
+.footer{
+  float: left;
+}
+
+
+
+.container{
+  width:100%;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+}
+
+.box{
+  flex:1;
+}
+
+
+#form{
+  margin-bottom: 30px;
+}
+
+#form label{
+  display:block;
+  padding: 10px;
+}
+
+#email{
+  padding: 5px;
+  margin-left: 10px;
+}
+
+#msg{
+  margin-left: 10px;
+  width: 300px;
+  padding: 10px;
+}
+
+#btn{
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: darkgrey;
+  padding:10px 15px;
+}
+
+
+.buttons{
+  padding: 30px;
+  background: rgb(159,159,159);
+  float: center;
+/*   margin-top:100px; */
+  margin:100px auto;
+/*   margin: 100px 250px; */
+  height: 300px;
+  width:60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttons input{
+  color: white;
+  background: rgb(67, 67, 69);
+  height: 60px;
+  width: 150px;
+}
+
+.buttn{
+  font: bold 17px Arial;
+}
+
+.buttn:hover{
+  background: lightgrey;
+  color: black;
+}
+
+footer{
+  color:white;
+}
+
+td, th {
+  list-style-type: upper-roman;
+  font: bold 20px Arial;  
+  text-align: center;
+}
+
+table {
+  width: 60%;
+  margin: 40px auto;
+}
+.Pilots{
+  list-style: none;
+}
+
+#pilot{
+  margin-top: 20px;
+  padding:10px 15px;
+  width: 300px;
+}
+
+
+.Pilots li{
+/*     border-radius: 4px; */
+   border: 1px solid black;
+   border-top: none;
+   padding: 20px;
+}
+.Pilots li:first-child {
+   border-top: 1px solid black;
+}
+#addPilot label{
+  font: bold 25px Arial;  
+  margin-left:20px;
+  margin-top: 20px;
+/*   display:block; */
+  padding: 15px;
+}
+
+#btnpilot{
+  border:solid 1px black;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: darkgrey;
+  padding:10px 15px;
+}
+
+
+.delbtn {
+  float: right;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+
+#black{
+  display: block;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#xy {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+
+#imgB{
+  width:100%;
+}
